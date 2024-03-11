@@ -3,7 +3,7 @@ import * as ENGINE from './engine/Engine.js'
 import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import {DRACOLoader} from './node_modules/three/examples/jsm/loaders/DRACOLoader.js'
 
-const MODEL = '../assets/PinkClutch.glb'
+const MODEL = './assets/PinkClutch.glb'
 
 window.onload = () => 
 {
