@@ -32,6 +32,7 @@ window.onload = () =>
         /* let model2 = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
         model2.setPosition(0.2, -0.1, -0.5)
         sceneManager.register(model2) */
+        alert("READY")
     })
 }
 
