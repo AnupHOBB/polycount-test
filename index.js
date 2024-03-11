@@ -3,7 +3,7 @@ import * as ENGINE from './engine/Engine.js'
 import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import {DRACOLoader} from './node_modules/three/examples/jsm/loaders/DRACOLoader.js'
 
-const MODEL = './assets/PinkClutch.glb'
+const MODEL = './assets/urban-barn-sofa.glb'
 
 window.onload = () => 
 {
@@ -26,7 +26,7 @@ window.onload = () =>
         cameraManager.registerInput(input)
         let model = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
         //model.setPosition(-0.2, -0.1, -0.5)
-        model.setPosition(0, -0.1, -0.5)
+        model.setPosition(0, -50, -200)
         sceneManager.register(model)
 
         /* let model2 = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
@@ -39,8 +39,15 @@ window.onload = () =>
 /*
     HobbWebConfiguratorForWebPage total triangles : 160,056
 
-    PinkClutch.glb : 186,788
-    DecorItemPlant17 : 782,498
-
-
+    //USED// urban-barn-sofa.glb : 133,792
+    
+    WyzeAirPurifier.glb : 59,654
+    PatioUmbrella.glb : 56,653
+    IngridChair.glb : 45,196
+    ArmChair.glb : 42,008
+    TanLeatherSofa.glb : 31,191
+    urban-barn-sofa-3.glb : 29,487
+    urban-barn-sofa-4.glb : 25,695
+    Dryer.glb : 13,677
+    DecorItemVase.glb : 6,044
 */
