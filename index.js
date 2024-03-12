@@ -3,7 +3,7 @@ import * as ENGINE from './engine/Engine.js'
 import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import {DRACOLoader} from './node_modules/three/examples/jsm/loaders/DRACOLoader.js'
 
-const MODEL = './assets/table-1.glb'
+const MODEL = './assets/Plant_A.glb'
 
 window.onload = () => 
 {
@@ -25,7 +25,7 @@ window.onload = () =>
         sceneManager.register(input)
         cameraManager.registerInput(input)
         let model = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
-        model.setPosition(0, -0.25, -1.5)
+        model.setPosition(0, 0, -3)
         sceneManager.register(model)
 
         /* let model2 = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
@@ -38,6 +38,12 @@ window.onload = () =>
 /*
     HobbWebConfiguratorForWebPage total triangles : 160,056
 
-    //DID NOT WORK// DecorItemVase.glb : 6,044
-    table-1 : 5,851
+    Plant_C.glb : 2,040
+    Chair.glb : 1,904
+    Pillow.glb : 930
+    Plant_E.glb : 842
+    Plant_F.glb : 424
+    Plant_G.glb : 414
+    Plant_H.glb : 176
+    //SELECTED// Plant_A.glb : 40
 */
