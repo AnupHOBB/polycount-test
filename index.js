@@ -48,5 +48,6 @@ window.onload = () =>
     urban-barn-sofa-3.glb : 29,487
     urban-barn-sofa-4.glb : 25,695
     Dryer.glb : 13,677
-    DecorItemVase.glb : 6,044
+
+    //DID NOT WORK// DecorItemVase.glb : 6,044
 */
