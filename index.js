@@ -3,7 +3,7 @@ import * as ENGINE from './engine/Engine.js'
 import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import {DRACOLoader} from './node_modules/three/examples/jsm/loaders/DRACOLoader.js'
 
-const MODEL = './assets/WyzeAirPurifier.glb'
+const MODEL = './assets/DecorItemVase.glb'
 
 window.onload = () => 
 {
@@ -25,7 +25,7 @@ window.onload = () =>
         sceneManager.register(input)
         cameraManager.registerInput(input)
         let model = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
-        model.setPosition(0, -0.25, -1)
+        model.setPosition(0, -0.05, -0.25)
         sceneManager.register(model)
 
         /* let model2 = new ENGINE.MeshModel('Model', assetMap.get('Model'), true)
@@ -39,8 +39,8 @@ window.onload = () =>
     HobbWebConfiguratorForWebPage total triangles : 160,056
 
     //DID NOT WORK// urban-barn-sofa.glb : 133,792
-    
-    WyzeAirPurifier.glb : 59,654
+    //DID NOT WORK// WyzeAirPurifier.glb : 59,654
+
     PatioUmbrella.glb : 56,653
     IngridChair.glb : 45,196
     ArmChair.glb : 42,008
