@@ -439,7 +439,7 @@ export class SceneRenderer
         this.ssaoPass.output = SSAOPass.OUTPUT.SSAO
         this.ssaoPass.minDistance = 0.00004
         this.ssaoPass.maxDistance = 0.1
-        this.ssaoComposer.insertPass(this.ssaoPass, 0)
+        //this.ssaoComposer.insertPass(this.ssaoPass, 0)
         this.ssaaPass = new SSAARenderPass(this.scene, threeJsCamera, 0xffffff, 1)
         this.ssaaPass.sampleLevel = 1
         this.ssaaPass.unbiased = true
